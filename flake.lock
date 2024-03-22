@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "dot-astro-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1711098339,
+        "narHash": "sha256-IkssExqY9cW2HqBb5/FlutmF76dBhaN92zuEsBakK+k=",
+        "owner": "shelken",
+        "repo": "dot-astro-nvim",
+        "rev": "b6f921eff5e2001498cbd0568598a7419e29c67e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "shelken",
+        "repo": "dot-astro-nvim",
+        "type": "github"
+      }
+    },
     "dot-tmux": {
       "flake": false,
       "locked": {
@@ -68,6 +84,7 @@
     },
     "root": {
       "inputs": {
+        "dot-astro-nvim": "dot-astro-nvim",
         "dot-tmux": "dot-tmux",
         "dot-yabai": "dot-yabai",
         "flake-utils": "flake-utils",
