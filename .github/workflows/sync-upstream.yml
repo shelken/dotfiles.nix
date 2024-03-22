@@ -11,12 +11,14 @@ on:
 jobs:
   sync-upstream:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@main
         with:
         #   ref: master
         #   submodules: true
-          token: "${{ secrets.ACCESS_TOKEN }}"
+          token: "${{ secrets.GITHUB_TOKEN }}"
 
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
