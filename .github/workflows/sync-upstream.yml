@@ -27,7 +27,7 @@ jobs:
       - name: update flake upstream input
         shell: bash
         run: |
-          nix flake lock --update-input ${{ inputs.input }}"
+          nix flake lock --update-input ${{ inputs.input }}
 
       - uses: EndBug/add-and-commit@main
         with:
