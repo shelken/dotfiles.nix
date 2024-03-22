@@ -10,6 +10,7 @@
           # universal
           inherit (inputs) dot-yabai;
           inherit (inputs) dot-tmux;
+          inherit (inputs) dot-astro-nvim;
         };
         cfg = builtins.mapAttrs
           (module: src:
@@ -29,6 +30,7 @@
           # universal
           inherit (cfg) dot-tmux;
           inherit (cfg) dot-yabai;
+          inherit (cfg) dot-astro-nvim;
         };
         # dev environment
         devShells.default = with pkgs; mkShell {
@@ -44,6 +46,7 @@
     # universal configs
     dot-tmux = { url = "github:shelken/dot-tmux"; flake = false; };
     dot-yabai = { url = "github:shelken/dot-yabai"; flake = false; };
+    dot-astro-nvim = { url = "github:shelken/dot-astro-nvim"; flake = false; };
 
     # host-specific
   };
