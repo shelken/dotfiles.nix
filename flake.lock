@@ -35,11 +35,11 @@
     "dot-yabai": {
       "flake": false,
       "locked": {
-        "lastModified": 1710772953,
-        "narHash": "sha256-L6bNgl+3HjqRvtH9QurhIriaSzKAvaPy2m0+caK21Cg=",
+        "lastModified": 1711198519,
+        "narHash": "sha256-K67rnt9nnfKam+aVx5K9G/u1SIY3kHtKa/7LBkz0wDc=",
         "owner": "shelken",
         "repo": "dot-yabai",
-        "rev": "365a2c9a97afd2b594b536dd52dac8358297e4da",
+        "rev": "c741ac31b809683487d518728fe0c1a1ebafc3e8",
         "type": "github"
       },
       "original": {
