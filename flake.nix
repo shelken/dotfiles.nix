@@ -8,9 +8,9 @@
         pkgs = (import nixpkgs) { inherit system; };
         src = {
           # universal
-          # inherit (inputs) dot-yabai;
           inherit (inputs) dot-tmux;
           inherit (inputs) dot-astro-nvim;
+          inherit (inputs) dot-squirrel;
         };
         cfg = builtins.mapAttrs
           (module: src:
@@ -29,8 +29,8 @@
         packages = {
           # universal
           inherit (cfg) dot-tmux;
-          # inherit (cfg) dot-yabai;
           inherit (cfg) dot-astro-nvim;
+          inherit (cfg) dot-squirrel;
         };
         # dev environment
         devShells.default = with pkgs; mkShell {
@@ -44,10 +44,9 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     # universal configs
-    dot-tmux = { url = "github:shelken/dot-tmux"; flake = false; };
-    # dot-yabai = { url = "github:shelken/dot-yabai"; flake = false; };
-    dot-astro-nvim = { url = "github:shelken/dot-astro-nvim"; flake = false; };
-
+    dot-tmux        = { url = "github:shelken/dot-tmux"; flake = false; };
+    dot-astro-nvim  = { url = "github:shelken/dot-astro-nvim"; flake = false; };
+    dot-squirrel    = { url = "github:shelken/rime-auto-deploy"; flake = false; };
     # host-specific
   };
 }
