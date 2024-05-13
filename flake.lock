@@ -16,6 +16,22 @@
         "type": "github"
       }
     },
+    "dot-squirrel": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1715620861,
+        "narHash": "sha256-cgTLsVpiyNfTfLXIWhMBgXDqKYUXezvP4BN9e54erPI=",
+        "owner": "shelken",
+        "repo": "rime-auto-deploy",
+        "rev": "f8d89c784a1ab1d3f75f86d856cd0347d8ab25d1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "shelken",
+        "repo": "rime-auto-deploy",
+        "type": "github"
+      }
+    },
     "dot-tmux": {
       "flake": false,
       "locked": {
@@ -69,6 +85,7 @@
     "root": {
       "inputs": {
         "dot-astro-nvim": "dot-astro-nvim",
+        "dot-squirrel": "dot-squirrel",
         "dot-tmux": "dot-tmux",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
