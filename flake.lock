@@ -3,11 +3,11 @@
     "dot-astro-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1723880112,
-        "narHash": "sha256-g49PUFM2rKgJKbmc2XhtzqcNyKNqmNJlMB+Emcr8qEs=",
+        "lastModified": 1723880543,
+        "narHash": "sha256-CGV/69Wspd9knBLayLIUDtszilnyeH0mVTPoFLjeyyQ=",
         "owner": "shelken",
         "repo": "dot-astro-nvim",
-        "rev": "33b466ede100b29c9d5d90fc4edee6a6bb7de206",
+        "rev": "fd7721476dfa146bbbbefc6d1a49dcdcb436fe13",
         "type": "github"
       },
       "original": {
