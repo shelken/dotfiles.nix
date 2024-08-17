@@ -35,11 +35,11 @@
     "dot-tmux": {
       "flake": false,
       "locked": {
-        "lastModified": 1713947984,
-        "narHash": "sha256-RGJlvsH+oFGwaihl+3rjSgepbswBLiFVGZkvTQq2wng=",
+        "lastModified": 1723881304,
+        "narHash": "sha256-Tl/DjI3TKVoNuOPz8q7wMHmfxcYDrrkZoFOsmGrt1gA=",
         "owner": "shelken",
         "repo": "dot-tmux",
-        "rev": "26993751c2e811763b234990b8b5ce02c3ec8a2d",
+        "rev": "9e8d825ebc9067e09218f2f985a9edbddf27413a",
         "type": "github"
       },
       "original": {
