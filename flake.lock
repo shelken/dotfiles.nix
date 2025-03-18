@@ -19,11 +19,11 @@
     "dot-squirrel": {
       "flake": false,
       "locked": {
-        "lastModified": 1742040568,
-        "narHash": "sha256-1VnrFOAELJ114AceoY5Idzo7cBZyb1JUcw46Fh32Ge4=",
+        "lastModified": 1742266281,
+        "narHash": "sha256-O7MAmk3qNaGxlxUk9vy0puTCeJGMpcf3q6eflTRwkVc=",
         "owner": "shelken",
         "repo": "rime-auto-deploy",
-        "rev": "7941b130d5aa7ec1ecaabcc25870a77770a92c21",
+        "rev": "381aefa6c61db271c72a44e791a894d977499788",
         "type": "github"
       },
       "original": {
