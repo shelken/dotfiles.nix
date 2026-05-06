@@ -33,7 +33,7 @@
           inherit (cfg) dot-squirrel;
         };
         # dev environment
-        devShells.default = with pkgs; mkShell {
+        devShells.default = with pkgs; mkShellNoCC {
           packages = [ vim ];
         };
       });
